@@ -5,13 +5,15 @@
 using namespace std;
 
 class Persona{
+    private:
+        int edad;
 
     public:
         string nombre;
         int DNI;
         string pais;
         Persona(int,string,int,string);
-        int edad;
+        int obteneredad();
         int personalesesta();
         int personales();
 };
@@ -22,8 +24,11 @@ Persona::Persona(int _edad,string _nombre,int _DNI,string _pais){
     DNI=_DNI;
     pais=_pais;
 }
+int Persona::obteneredad(){
+    return edad;
+    }
 int Persona::personalesesta(){
-    cout<<"Su edad es: "<<edad<<" de nombre "<<nombre<<"numero de DNI "<<DNI<<" viene de "<<pais;
+    cout<<"Su edad es: "<<edad<<" de nombre "<<nombre<<" numero de DNI "<<DNI<<" viene de "<<pais;
 }
 int Persona::personales(){
     cout<<"Edad:";
@@ -40,15 +45,13 @@ int Persona::personales(){
     cout<<"tengo "<<edad<<" años "<<" mi nombre es "<<nombre<<" , mi DNI es "<<DNI<<" y vengo de "<<pais<<endl;
 }
 class Examen{
-    private:
+    public:
         int numeroe;
         string tipo_de_e;
         int pagina_e;
         string Lclase;
         int Nclase;
         string carrera;
-
-    public:
         Examen(int,string,int,string,int,string);
         void clase();
         void elex();
@@ -83,14 +86,15 @@ int main()
     cin>>a;
     cin>>p1l;
     Persona p1=Persona(22,"Sebastian",974740792," Peru");
+    Persona p2=Persona(19,"Nicolas",8262826825," peru");
     Examen e1=Examen(132,"computacion",34,"A",05,"carrera");
-    e1.clase();
-    e1.elex();
-    if(b==p1.edad and f==p1.nombre){
+    if(b==p1.obteneredad() ){
         return p1.personalesesta();
     }
     else{
         return p1.personales();
     }
+    e1.clase();
+    e1.elex();
     return 0;
 }
