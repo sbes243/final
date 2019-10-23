@@ -13,6 +13,7 @@ class Persona{
     public:
         Persona(int,string,int,string,string);
         int edad;
+        int personalesesta();
         int personales();
 };
 
@@ -21,6 +22,9 @@ Persona::Persona(int _edad,string _nombre,int _DNI,string _pais,string _carrera)
     nombre=_nombre;
     DNI=_DNI;
     pais=_pais;
+}
+int Persona::personalesesta(){
+    cout<<"Su edad es: "<<edad<<" de nombre "<<nombre<<"numero de DNI "<<DNI<<" viene de "<<pais;
 }
 int Persona::personales(){
     cout<<"Edad:";
@@ -78,11 +82,13 @@ int main()
     cin>>a;
     cin>>p1l;
     Persona p1=Persona(22," Sebastian",974740792," Peru"," computacion");
-    p1.personales();
     Examen e1=Examen(132,"computacion",34,"A",05,"carrera");
     e1.clase();
     e1.elex();
     if(b==p1.edad){
+        return p1.personalesesta();
+    }
+    else{
         return p1.personales();
     }
     return 0;
