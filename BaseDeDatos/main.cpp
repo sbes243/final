@@ -5,19 +5,18 @@
 using namespace std;
 
 class Persona{
-    private:
 
+    public:
         string nombre;
         int DNI;
         string pais;
-    public:
-        Persona(int,string,int,string,string);
+        Persona(int,string,int,string);
         int edad;
         int personalesesta();
         int personales();
 };
 
-Persona::Persona(int _edad,string _nombre,int _DNI,string _pais,string _carrera){
+Persona::Persona(int _edad,string _nombre,int _DNI,string _pais){
     edad=_edad;
     nombre=_nombre;
     DNI=_DNI;
@@ -33,7 +32,9 @@ int Persona::personales(){
     cin>>nombre;
     cout<<"Cual es su DNI:";
     cin>>DNI;
-    cout<<"Pais de origen:";
+    cout<<"Pais de origen:";string nombre;
+        int DNI;
+        string pais;
     cin>>pais;
 
     cout<<"tengo "<<edad<<" años "<<" mi nombre es "<<nombre<<" , mi DNI es "<<DNI<<" y vengo de "<<pais<<endl;
@@ -81,11 +82,11 @@ int main()
     cin>>f;
     cin>>a;
     cin>>p1l;
-    Persona p1=Persona(22," Sebastian",974740792," Peru"," computacion");
+    Persona p1=Persona(22,"Sebastian",974740792," Peru");
     Examen e1=Examen(132,"computacion",34,"A",05,"carrera");
     e1.clase();
     e1.elex();
-    if(b==p1.edad){
+    if(b==p1.edad and f==p1.nombre){
         return p1.personalesesta();
     }
     else{
