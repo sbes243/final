@@ -13,6 +13,7 @@ class persona// Clase que hace referencia a los datos de una persona
     public:// Se inicializa el constructor y las funciones de la clase
         persona(int ,string,int ,string);
         int obteneredad();
+        string obtenernombre();
         void personalesesta();
         void personales();
 };

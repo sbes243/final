@@ -11,6 +11,9 @@ persona::persona(int _edad,string _nombre,int _DNI,string _pais){// El construct
 int persona::obteneredad(){//Funcion para poder usar la variable edad aunque sea privada
     return edad;
     }
+string persona::obtenernombre(){
+    return nombre;
+}
 void persona::personalesesta(){//Mostrar los datos de una persona que si se encuentra en la base de datos
     cout<<"Su edad es: "<<edad<<" de nombre "<<nombre<<" numero de DNI "<<DNI<<" viene de "<<pais;
 }

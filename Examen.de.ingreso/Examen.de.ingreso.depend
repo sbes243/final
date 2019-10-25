@@ -25,7 +25,7 @@
 	"persona.h"
 	"Examen.h"
 
-1572031270 d:\sebasu\final\examen.de.ingreso\include\persona.h
+1572032167 d:\sebasu\final\examen.de.ingreso\include\persona.h
 	<string>
 
 1572031490 d:\sebasu\final\examen.de.ingreso\include\examen.h
@@ -35,7 +35,7 @@
 	"Examen.h"
 	<iostream>
 
-1572031441 source:d:\sebasu\final\examen.de.ingreso\src\persona.cpp
+1572032167 source:d:\sebasu\final\examen.de.ingreso\src\persona.cpp
 	"persona.h"
 	<iostream>
 

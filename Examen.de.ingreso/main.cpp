@@ -18,7 +18,7 @@ int main()
     persona p1=persona(22,"Sebastian",974740792," Peru");
     persona p2=persona(19,"Nicolas",8262826825," peru");
     Examen e1=Examen(132,"computacion",34,"A",05,"carrera");
-    if(b==p1.obteneredad()){
+    if(b==p1.obteneredad() and f==p1.obtenernombre()){
          p1.personalesesta();
     }
     else{
