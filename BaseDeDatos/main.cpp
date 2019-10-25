@@ -81,6 +81,7 @@ int main()
     string f;
     int a;
     string p1l;
+    cout<<"Ingrese su edad:"<<
     cin>>b;
     cin>>f;
     cin>>a;
