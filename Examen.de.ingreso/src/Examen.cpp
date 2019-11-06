@@ -1,5 +1,6 @@
 #include "Examen.h"
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -10,6 +11,9 @@ Examen::Examen(int _numeroe,string _tipo_de_e,int _pagina_e,string _Lclase,int _
     Lclase=_Lclase;
     Nclase=_Nclase;
     carrera=_carrera;
+}
+int Examen::obtenerclase(){
+    return Nclase;
 }
 void Examen::clase(){ //Pide al usuario una carrera para luego usar sus datos para mostrar donde se dara el examen
     cout<<"Carrera deseada:";

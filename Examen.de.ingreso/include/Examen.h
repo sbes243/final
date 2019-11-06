@@ -13,6 +13,7 @@ class Examen
         string carrera;
     public:// Esta clase recibira los datos como la clase tipo de clase, etc
         Examen(int,string,int,string,int,string);
+        int obtenerclase();
         void clase();
         void elex();
 

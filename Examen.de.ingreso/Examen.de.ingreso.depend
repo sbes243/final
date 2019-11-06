@@ -39,3 +39,25 @@
 	"persona.h"
 	<iostream>
 
+1572142646 source:c:\c++\final\examen.de.ingreso\src\examen.cpp
+	"Examen.h"
+	<iostream>
+	<string>
+
+1572142595 c:\c++\final\examen.de.ingreso\include\examen.h
+	<string>
+
+1572139791 source:c:\c++\final\examen.de.ingreso\src\persona.cpp
+	"persona.h"
+	<iostream>
+	<string>
+
+1572137224 c:\c++\final\examen.de.ingreso\include\persona.h
+	<string>
+
+1572142595 source:c:\c++\final\examen.de.ingreso\main.cpp
+	<iostream>
+	<array>
+	"persona.h"
+	"Examen.h"
+
