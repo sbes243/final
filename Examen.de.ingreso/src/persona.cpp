@@ -25,11 +25,15 @@ void persona::personales(){// En caso de no estar la persona se pediran que se i
     cin>>nombre;
     cout<<"Cual es su DNI:";
     cin>>DNI;
-    cout<<"Pais de origen:";string nombre;
-        int DNI;
-        string pais;
+    cout<<"Pais de origen:";
     cin>>pais;
 
     cout<<"tengo "<<edad<<" años "<<" mi nombre es "<<nombre<<" , mi DNI es "<<DNI<<" y vengo de "<<pais<<endl;
+}
+int persona::obtenerDNI(){
+    return DNI;
+}
+string persona::obtenerpais(){
+    return pais;
 }
 

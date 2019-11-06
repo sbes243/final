@@ -16,7 +16,8 @@ class persona// Clase que hace referencia a los datos de una persona
         string obtenernombre();
         void personalesesta();
         void personales();
-
+        int obtenerDNI();
+        string obtenerpais();
 };
 
 
