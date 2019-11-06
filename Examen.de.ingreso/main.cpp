@@ -5,6 +5,18 @@
 
 using namespace std;
 
+void ordenarburbuja(persona arr[],int tam){
+     for(int i=0;i<tam;i++){
+         for(int j=0;j<tam-1;j++){
+            if(arr[j].obteneredad>arr[j+1].obteneredad){
+                persona c.obteneredad()=arr[j].obteneredad();
+                arr[j].obteneredad()=arr[j+1].obteneredad();
+                arr[j+1].obteneredad()=c;
+            }
+         }
+         }
+}
+
 int main()
 {
     int b,opc;
@@ -13,7 +25,10 @@ int main()
     string p1l;
     persona p1=persona(22,"Sebastian",974740792," Peru");
     persona p2=persona(19,"Nicolas",8262826825," peru");
+    persona p3=persona(21,"Luciana",959875879,"Argentina");
     Examen e1=Examen(132,"computacion",34,"A",05,"carrera");
+    persona arr1[]={p1,p2,p3};
+    ordenarburbuja(arr1,3);
     cout<<"\n-----------Menu----------";//El menu que se utilizara en la base de datos
     cout<<"\n 1. Revisar base de datos";
     cout<<"\n 2. Nuevo ingresante";
