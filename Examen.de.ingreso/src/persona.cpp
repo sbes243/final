@@ -32,3 +32,4 @@ void persona::personales(){// En caso de no estar la persona se pediran que se i
 
     cout<<"tengo "<<edad<<" años "<<" mi nombre es "<<nombre<<" , mi DNI es "<<DNI<<" y vengo de "<<pais<<endl;
 }
+

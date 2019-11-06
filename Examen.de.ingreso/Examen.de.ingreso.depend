@@ -61,3 +61,26 @@
 	"persona.h"
 	"Examen.h"
 
+1573050970 source:d:\sebastianugarte\final\examen.de.ingreso\main.cpp
+	<iostream>
+	<array>
+	"persona.h"
+	"Examen.h"
+	<cstdlib>
+
+1573051150 d:\sebastianugarte\final\examen.de.ingreso\include\persona.h
+	<string>
+
+1573048344 d:\sebastianugarte\final\examen.de.ingreso\include\examen.h
+	<string>
+
+1573050128 source:d:\sebastianugarte\final\examen.de.ingreso\src\examen.cpp
+	"Examen.h"
+	<iostream>
+	<string>
+
+1573051150 source:d:\sebastianugarte\final\examen.de.ingreso\src\persona.cpp
+	"persona.h"
+	<iostream>
+	<string>
+
