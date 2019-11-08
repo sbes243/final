@@ -19,14 +19,14 @@
 1572031270 c:\users\alumno-g\desktop\examen.de.ingreso\include\persona.h
 	<string>
 
-1573239023 source:d:\sebasu\final\examen.de.ingreso\main.cpp
+1573242390 source:d:\sebasu\final\examen.de.ingreso\main.cpp
 	<iostream>
-	<array>
 	"persona.h"
 	"Examen.h"
+	<vector>
 	<cstdlib>
 
-1573238353 d:\sebasu\final\examen.de.ingreso\include\persona.h
+1573242101 d:\sebasu\final\examen.de.ingreso\include\persona.h
 	<string>
 
 1573238353 d:\sebasu\final\examen.de.ingreso\include\examen.h
@@ -37,7 +37,7 @@
 	<iostream>
 	<string>
 
-1573238353 source:d:\sebasu\final\examen.de.ingreso\src\persona.cpp
+1573242101 source:d:\sebasu\final\examen.de.ingreso\src\persona.cpp
 	"persona.h"
 	<iostream>
 	<string>

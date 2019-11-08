@@ -1,7 +1,7 @@
 #include <iostream>
-#include<array>
 #include "persona.h"
 #include "Examen.h"
+#include <vector>
 #include <cstdlib>
 
 using namespace std;
@@ -16,6 +16,17 @@ using namespace std;
          }
          }
 }*/
+void mostrar1(vector <persona>  v) {
+	for (int i = 0; i < v.size(); i++) {
+        v[i].mostrar();
+		cout<<endl;
+	}
+}
+void aumentar(vector <persona> &v ){
+    persona v1;
+    v1.personales();
+    v.push_back(v1);
+}
 void menu(){
     cout<<"\n-----------Menu----------";//El menu que se utilizara en la base de datos
     cout<<"\n 1. Revisar base de datos";
@@ -26,15 +37,11 @@ void menu(){
 }
 int main()
 {   int opc;
-    int b;
-    int a;
-    string f;
-    string pl;
     persona p1(22,"Sebastian",974740792," Peru");
     persona p2(19,"Nicolas",92628275," Peru");
     persona p3(21,"Luciana",959875879,"Argentina");
     Examen e1(132,"computacion",34,"A",05,"carrera");
-    persona arr1[]={p1,p2,p3};
+    vector <persona> arr1={p1,p2,p3};
     menu();
     cin>>opc;
     system("cls");
@@ -42,19 +49,18 @@ int main()
         switch(opc){// Se usa la opcion switch para 4 opciones si se desea separar por partes se agrega system("cls");
             case 1://opcion 1 para obtener los datos de la base
                 cout<<"Estudiantes ingresados:"<<endl;
-                cout<<p1.obteneredad()<<" "<<p1.obtenernombre()<<" "<<p1.obtenerDNI()<<" "<<p1.obtenerpais()<<endl;
-                cout<<p2.obteneredad()<<" "<<p2.obtenernombre()<<" "<<p2.obtenerDNI()<<" "<<p2.obtenerpais()<<endl;
-                cout<<p3.obteneredad()<<" "<<p3.obtenernombre()<<" "<<p3.obtenerDNI()<<" "<<p3.obtenerpais()<<endl;
+                mostrar1(arr1);
                 menu();
                 cin>>opc;
                 break;
             case 2://opcion 2 para ingresar nuevos datos de un alumno
-                p2.personales();
+                aumentar(arr1);
                 menu();
                 cin>>opc;
                 break;
             case 3://opcion 3 para obtener la clase del examen
                 e1.clase();
+                e1.elex();
                 menu();
                 cin>>opc;
                 break;

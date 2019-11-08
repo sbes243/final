@@ -3,6 +3,7 @@
 #include <string>
 using namespace std;
 
+persona::persona(){}
 persona::persona(int _edad,string _nombre,int _DNI,string _pais){// El constructor de la clase
     edad=_edad;
     nombre=_nombre;
@@ -35,5 +36,12 @@ int persona::obtenerDNI(){
 }
 string persona::obtenerpais(){
     return pais;
+}
+void persona::mostrar(){
+	cout<<"Nombre: "<<nombre<<endl;
+	cout<<"Edad: "<<edad<<endl;
+	cout<<"DNI: "<<DNI<<endl;
+	cout<<"Pais :"<<pais<<endl;
+
 }
 

@@ -12,12 +12,14 @@ class persona// Clase que hace referencia a los datos de una persona
         string pais;
     public:// Se inicializa el constructor y las funciones de la clase
         persona(int ,string,int ,string);
+        persona();
         int obteneredad();
         string obtenernombre();
         void personalesesta();
         void personales();
         int obtenerDNI();
         string obtenerpais();
+        void mostrar();
 };
 
 
