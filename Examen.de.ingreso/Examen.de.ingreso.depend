@@ -42,27 +42,30 @@
 	<iostream>
 	<string>
 
-1572142646 source:c:\c++\final\examen.de.ingreso\src\examen.cpp
+1573350726 source:c:\c++\final\examen.de.ingreso\src\examen.cpp
 	"Examen.h"
 	<iostream>
 	<string>
 
-1572142595 c:\c++\final\examen.de.ingreso\include\examen.h
+1573517680 c:\c++\final\examen.de.ingreso\include\examen.h
 	<string>
+	<iostream>
 
-1572139791 source:c:\c++\final\examen.de.ingreso\src\persona.cpp
+1573350726 source:c:\c++\final\examen.de.ingreso\src\persona.cpp
 	"persona.h"
 	<iostream>
 	<string>
 
-1572137224 c:\c++\final\examen.de.ingreso\include\persona.h
+1573516878 c:\c++\final\examen.de.ingreso\include\persona.h
 	<string>
 
-1572142595 source:c:\c++\final\examen.de.ingreso\main.cpp
+1573517617 source:c:\c++\final\examen.de.ingreso\main.cpp
 	<iostream>
-	<array>
 	"persona.h"
 	"Examen.h"
+	"Estudiante.h"
+	<vector>
+	<cstdlib>
 
 1573051743 source:d:\sebastianugarte\final\examen.de.ingreso\main.cpp
 	<iostream>
@@ -86,4 +89,15 @@
 	"persona.h"
 	<iostream>
 	<string>
+
+1573517502 source:c:\c++\final\examen.de.ingreso\src\estudiante.cpp
+	"Estudiante.h"
+	"persona.h"
+	<string>
+	<iostream>
+
+1573517502 c:\c++\final\examen.de.ingreso\include\estudiante.h
+	<string>
+	"persona.h"
+	<iostream>
 

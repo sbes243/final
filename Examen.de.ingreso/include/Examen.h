@@ -1,6 +1,7 @@
 #ifndef EXAMEN_H
 #define EXAMEN_H
 #include <string>
+#include <iostream>
 using namespace std;
 class Examen
 {

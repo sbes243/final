@@ -1,6 +1,7 @@
 #include <iostream>
 #include "persona.h"
 #include "Examen.h"
+#include "Estudiante.h"
 #include <vector>
 #include <cstdlib>
 
@@ -16,14 +17,14 @@ using namespace std;
          }
          }
 }*/
-void mostrar1(vector <persona>  v) {
+void mostrar1(vector <Estudiante>  v) {
 	for (int i = 0; i < v.size(); i++) {
         v[i].mostrar();
 		cout<<endl;
 	}
 }
-void aumentar(vector <persona> &v ){
-    persona v1;
+void aumentar(vector <Estudiante> &v ){
+    Estudiante v1;
     v1.personales();
     v.push_back(v1);
 }
@@ -37,11 +38,11 @@ void menu(){
 }
 int main()
 {   int opc;
-    persona p1(22,"Sebastian",974740792," Peru");
-    persona p2(19,"Nicolas",92628275," Peru");
-    persona p3(21,"Luciana",959875879,"Argentina");
+    Estudiante p1(22,"Sebastian",974740792," Peru");
+    Estudiante p2(19,"Nicolas",92628275," Peru");
+    Estudiante p3(21,"Luciana",959875879,"Argentina");
     Examen e1(132,"computacion",34,"A",05,"carrera");
-    vector <persona> arr1={p1,p2,p3};
+    vector <Estudiante> arr1={p1,p2,p3};
     menu();
     cin>>opc;
     system("cls");

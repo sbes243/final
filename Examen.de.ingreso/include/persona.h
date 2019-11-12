@@ -5,7 +5,7 @@ using namespace std;
 
 class persona// Clase que hace referencia a los datos de una persona
 {
-    private:// Se piden los datos necesarios para presentarse al examen
+     protected:
         int edad;
         string nombre;
         int DNI;
