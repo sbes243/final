@@ -37,7 +37,7 @@ int persona::obtenerDNI(){
 string persona::obtenerpais(){
     return pais;
 }
-void persona::mostrar(){
+ void persona::mostrar(){
 	cout<<"Nombre: "<<nombre<<endl;
 	cout<<"Edad: "<<edad<<endl;
 	cout<<"DNI: "<<DNI<<endl;

@@ -51,19 +51,20 @@
 	<string>
 	<iostream>
 
-1573350726 source:c:\c++\final\examen.de.ingreso\src\persona.cpp
+1573577740 source:c:\c++\final\examen.de.ingreso\src\persona.cpp
 	"persona.h"
 	<iostream>
 	<string>
 
-1573516878 c:\c++\final\examen.de.ingreso\include\persona.h
+1573577609 c:\c++\final\examen.de.ingreso\include\persona.h
 	<string>
 
-1573517617 source:c:\c++\final\examen.de.ingreso\main.cpp
+1573589360 source:c:\c++\final\examen.de.ingreso\main.cpp
 	<iostream>
 	"persona.h"
 	"Examen.h"
 	"Estudiante.h"
+	"Maestro.h"
 	<vector>
 	<cstdlib>
 
@@ -90,13 +91,23 @@
 	<iostream>
 	<string>
 
-1573517502 source:c:\c++\final\examen.de.ingreso\src\estudiante.cpp
+1573577668 source:c:\c++\final\examen.de.ingreso\src\estudiante.cpp
 	"Estudiante.h"
 	"persona.h"
 	<string>
 	<iostream>
 
-1573517502 c:\c++\final\examen.de.ingreso\include\estudiante.h
+1573577608 c:\c++\final\examen.de.ingreso\include\estudiante.h
+	<string>
+	"persona.h"
+	<iostream>
+
+1573589275 source:c:\c++\final\examen.de.ingreso\src\maestro.cpp
+	"Maestro.h"
+	<iostream>
+	<string>
+
+1573589275 c:\c++\final\examen.de.ingreso\include\maestro.h
 	<string>
 	"persona.h"
 	<iostream>

@@ -2,6 +2,7 @@
 #include "persona.h"
 #include "Examen.h"
 #include "Estudiante.h"
+#include "Maestro.h"
 #include <vector>
 #include <cstdlib>
 
@@ -38,10 +39,12 @@ void menu(){
 }
 int main()
 {   int opc;
-    Estudiante p1(22,"Sebastian",974740792," Peru");
-    Estudiante p2(19,"Nicolas",92628275," Peru");
-    Estudiante p3(21,"Luciana",959875879,"Argentina");
+    Estudiante p1(22,"Sebastian",974740792," Peru","computacion");
+    Estudiante p2(19,"Nicolas",92628275," Peru","derecho");
+    Estudiante p3(21,"Luciana",959875879,"Argentina","derecho");
     Examen e1(132,"computacion",34,"A",05,"carrera");
+    Maestro m1(34,"Pedro Gonzales",8879797,"Peru");
+
     vector <Estudiante> arr1={p1,p2,p3};
     menu();
     cin>>opc;
@@ -60,6 +63,7 @@ int main()
                 cin>>opc;
                 break;
             case 3://opcion 3 para obtener la clase del examen
+                m1.mostrar();
                 e1.clase();
                 e1.elex();
                 menu();
