@@ -42,7 +42,7 @@
 	<iostream>
 	<string>
 
-1573350726 source:c:\c++\final\examen.de.ingreso\src\examen.cpp
+1573589619 source:c:\c++\final\examen.de.ingreso\src\examen.cpp
 	"Examen.h"
 	<iostream>
 	<string>
@@ -56,10 +56,10 @@
 	<iostream>
 	<string>
 
-1573577609 c:\c++\final\examen.de.ingreso\include\persona.h
+1573937600 c:\c++\final\examen.de.ingreso\include\persona.h
 	<string>
 
-1573589360 source:c:\c++\final\examen.de.ingreso\main.cpp
+1573937750 source:c:\c++\final\examen.de.ingreso\main.cpp
 	<iostream>
 	"persona.h"
 	"Examen.h"
@@ -91,23 +91,23 @@
 	<iostream>
 	<string>
 
-1573577668 source:c:\c++\final\examen.de.ingreso\src\estudiante.cpp
+1573937600 source:c:\c++\final\examen.de.ingreso\src\estudiante.cpp
 	"Estudiante.h"
 	"persona.h"
 	<string>
 	<iostream>
 
-1573577608 c:\c++\final\examen.de.ingreso\include\estudiante.h
+1573937600 c:\c++\final\examen.de.ingreso\include\estudiante.h
 	<string>
 	"persona.h"
 	<iostream>
 
-1573589275 source:c:\c++\final\examen.de.ingreso\src\maestro.cpp
+1573937750 source:c:\c++\final\examen.de.ingreso\src\maestro.cpp
 	"Maestro.h"
 	<iostream>
 	<string>
 
-1573589275 c:\c++\final\examen.de.ingreso\include\maestro.h
+1573937750 c:\c++\final\examen.de.ingreso\include\maestro.h
 	<string>
 	"persona.h"
 	<iostream>

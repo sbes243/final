@@ -10,7 +10,7 @@ class Estudiante:public persona
 {   private:
         string carrera_deseada;
     public:
-        Estudiante (int,string,int,string,string);
+        Estudiante (int,string,int,string,int,string);
         Estudiante();
         void mostrar();
         void personales();

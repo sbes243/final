@@ -39,11 +39,11 @@ void menu(){
 }
 int main()
 {   int opc;
-    Estudiante p1(22,"Sebastian",974740792," Peru","computacion");
-    Estudiante p2(19,"Nicolas",92628275," Peru","derecho");
-    Estudiante p3(21,"Luciana",959875879,"Argentina","derecho");
+    Estudiante p1(22,"Sebastian",974740792," Peru",974740791,"computacion");
+    Estudiante p2(19,"Nicolas",92628275," Peru",974743429,"derecho");
+    Estudiante p3(21,"Luciana",959875879,"Argentina",964915239,"derecho");
     Examen e1(132,"computacion",34,"A",05,"carrera");
-    Maestro m1(34,"Pedro Gonzales",8879797,"Peru");
+    Maestro m1(34,"Pedro Gonzales",8879797,"Peru",928472847);
 
     vector <Estudiante> arr1={p1,p2,p3};
     menu();
@@ -63,8 +63,8 @@ int main()
                 cin>>opc;
                 break;
             case 3://opcion 3 para obtener la clase del examen
-                m1.mostrar();
                 e1.clase();
+                m1.mostrar();
                 e1.elex();
                 menu();
                 cin>>opc;

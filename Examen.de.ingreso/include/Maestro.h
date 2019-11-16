@@ -8,7 +8,7 @@ using namespace std;
 
 class Maestro:public persona
 {   public:
-        Maestro (int,string,int,string);
+        Maestro (int,string,int,string,int);
         Maestro();
         void mostrar();
 

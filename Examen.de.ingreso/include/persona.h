@@ -10,8 +10,9 @@ class persona// Clase que hace referencia a los datos de una persona
         string nombre;
         int DNI;
         string pais;
+        int telefono;
     public:// Se inicializa el constructor y las funciones de la clase
-        persona(int ,string,int ,string);
+        persona(int ,string,int ,string,int);
         persona();
         int obteneredad();
         string obtenernombre();
