@@ -9,13 +9,10 @@ class Examen
         int numeroe;
         string tipo_de_e;
         int pagina_e;
-        string Lclase;
-        int Nclase;
         string carrera;
     public:// Esta clase recibira los datos como la clase tipo de clase, etc
-        Examen(int,string,int,string,int,string);
-        int obtenerclase();
-        void clase();
+        Examen ();
+        Examen(int,string,int,string);
         void elex();
 
 };

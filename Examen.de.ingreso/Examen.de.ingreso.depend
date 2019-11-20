@@ -68,25 +68,30 @@
 	<vector>
 	<cstdlib>
 
-1573051743 source:d:\sebastianugarte\final\examen.de.ingreso\main.cpp
+1574261133 source:d:\sebastianugarte\final\examen.de.ingreso\main.cpp
 	<iostream>
-	<array>
 	"persona.h"
 	"Examen.h"
+	"Estudiante.h"
+	"Maestro.h"
+	<vector>
 	<cstdlib>
-
-1573052059 d:\sebastianugarte\final\examen.de.ingreso\include\persona.h
+	<salon.h>
 	<string>
 
-1573048344 d:\sebastianugarte\final\examen.de.ingreso\include\examen.h
+1574257461 d:\sebastianugarte\final\examen.de.ingreso\include\persona.h
 	<string>
 
-1573050128 source:d:\sebastianugarte\final\examen.de.ingreso\src\examen.cpp
+1574261160 d:\sebastianugarte\final\examen.de.ingreso\include\examen.h
+	<string>
+	<iostream>
+
+1574261160 source:d:\sebastianugarte\final\examen.de.ingreso\src\examen.cpp
 	"Examen.h"
 	<iostream>
 	<string>
 
-1573052059 source:d:\sebastianugarte\final\examen.de.ingreso\src\persona.cpp
+1574257946 source:d:\sebastianugarte\final\examen.de.ingreso\src\persona.cpp
 	"persona.h"
 	<iostream>
 	<string>
@@ -111,4 +116,36 @@
 	<string>
 	"persona.h"
 	<iostream>
+
+1574257946 source:d:\sebastianugarte\final\examen.de.ingreso\src\estudiante.cpp
+	"Estudiante.h"
+	"persona.h"
+	<string>
+	<iostream>
+
+1574257461 d:\sebastianugarte\final\examen.de.ingreso\include\estudiante.h
+	<string>
+	"persona.h"
+	<iostream>
+
+1574259401 source:d:\sebastianugarte\final\examen.de.ingreso\src\maestro.cpp
+	"Maestro.h"
+	<iostream>
+	<string>
+
+1574257461 d:\sebastianugarte\final\examen.de.ingreso\include\maestro.h
+	<string>
+	"persona.h"
+	<iostream>
+
+1574260852 source:d:\sebastianugarte\final\examen.de.ingreso\src\salon.cpp
+	"salon.h"
+	"Examen.h"
+	"Maestro.h"
+	<string>
+
+1574260660 d:\sebastianugarte\final\examen.de.ingreso\include\salon.h
+	<Maestro.h>
+	"Examen.h"
+	<string>
 

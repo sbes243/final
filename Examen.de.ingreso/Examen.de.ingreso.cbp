@@ -38,11 +38,13 @@
 		<Unit filename="include/Examen.h" />
 		<Unit filename="include/Maestro.h" />
 		<Unit filename="include/persona.h" />
+		<Unit filename="include/salon.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Estudiante.cpp" />
 		<Unit filename="src/Examen.cpp" />
 		<Unit filename="src/Maestro.cpp" />
 		<Unit filename="src/persona.cpp" />
+		<Unit filename="src/salon.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

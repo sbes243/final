@@ -5,20 +5,18 @@
 #include "Maestro.h"
 #include <vector>
 #include <cstdlib>
+#include <salon.h>
+#include <string>
 
 using namespace std;
-/*void ordenarburbuja(persona arr[],int tam){
-     for(int i=0;i<tam;i++){
-         for(int j=0;j<tam-1;j++){
-            if(arr[j].obteneredad>arr[j+1].obteneredad){
-                persona c.obteneredad()=arr[j].obteneredad();
-                arr[j].obteneredad()=arr[j+1].obteneredad();
-                arr[j+1].obteneredad()=c;
-            }
-         }
-         }
-}*/
+
 void mostrar1(vector <Estudiante>  v) {
+	for (int i = 0; i < v.size(); i++) {
+        v[i].mostrar();
+		cout<<endl;
+	}
+}
+void mostrar1(vector <salon>  v) {
 	for (int i = 0; i < v.size(); i++) {
         v[i].mostrar();
 		cout<<endl;
@@ -42,9 +40,13 @@ int main()
     Estudiante p1(22,"Sebastian",974740792," Peru",974740791,"computacion");
     Estudiante p2(19,"Nicolas",92628275," Peru",974743429,"derecho");
     Estudiante p3(21,"Luciana",959875879,"Argentina",964915239,"derecho");
-    Examen e1(132,"computacion",34,"A",05,"carrera");
+    Examen e1(132,"computacion",05,"Ciencias de la computacion");
+    Examen e2(85,"derecho",40,"Derecho");
     Maestro m1(34,"Pedro Gonzales",8879797,"Peru",928472847);
-
+    Maestro m2(29,"Juan Perez",374382,"Peru",8743873287);
+    salon s1("A783",m1,e1);
+    salon s2("B561",m2,e2);
+    vector <salon> arr2={s1,s2};
     vector <Estudiante> arr1={p1,p2,p3};
     menu();
     cin>>opc;
@@ -63,9 +65,7 @@ int main()
                 cin>>opc;
                 break;
             case 3://opcion 3 para obtener la clase del examen
-                e1.clase();
-                m1.mostrar();
-                e1.elex();
+                mostrar1(arr2);
                 menu();
                 cin>>opc;
                 break;
