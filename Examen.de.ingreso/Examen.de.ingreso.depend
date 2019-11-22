@@ -19,25 +19,30 @@
 1572031270 c:\users\alumno-g\desktop\examen.de.ingreso\include\persona.h
 	<string>
 
-1573242390 source:d:\sebasu\final\examen.de.ingreso\main.cpp
+1574450148 source:d:\sebasu\final\examen.de.ingreso\main.cpp
 	<iostream>
 	"persona.h"
 	"Examen.h"
+	"Estudiante.h"
+	"Maestro.h"
 	<vector>
 	<cstdlib>
-
-1573242101 d:\sebasu\final\examen.de.ingreso\include\persona.h
+	<salon.h>
 	<string>
 
-1573238353 d:\sebasu\final\examen.de.ingreso\include\examen.h
+1574447915 d:\sebasu\final\examen.de.ingreso\include\persona.h
 	<string>
 
-1573238353 source:d:\sebasu\final\examen.de.ingreso\src\examen.cpp
+1574447915 d:\sebasu\final\examen.de.ingreso\include\examen.h
+	<string>
+	<iostream>
+
+1574447915 source:d:\sebasu\final\examen.de.ingreso\src\examen.cpp
 	"Examen.h"
 	<iostream>
 	<string>
 
-1573242101 source:d:\sebasu\final\examen.de.ingreso\src\persona.cpp
+1574447915 source:d:\sebasu\final\examen.de.ingreso\src\persona.cpp
 	"persona.h"
 	<iostream>
 	<string>
@@ -147,5 +152,37 @@
 1574260660 d:\sebastianugarte\final\examen.de.ingreso\include\salon.h
 	<Maestro.h>
 	"Examen.h"
+	<string>
+
+1574447915 d:\sebasu\final\examen.de.ingreso\include\estudiante.h
+	<string>
+	"persona.h"
+	<iostream>
+
+1574447915 d:\sebasu\final\examen.de.ingreso\include\maestro.h
+	<string>
+	"persona.h"
+	<iostream>
+
+1574448631 d:\sebasu\final\examen.de.ingreso\include\salon.h
+	<Maestro.h>
+	"Examen.h"
+	<string>
+
+1574447915 source:d:\sebasu\final\examen.de.ingreso\src\estudiante.cpp
+	"Estudiante.h"
+	"persona.h"
+	<string>
+	<iostream>
+
+1574447915 source:d:\sebasu\final\examen.de.ingreso\src\maestro.cpp
+	"Maestro.h"
+	<iostream>
+	<string>
+
+1574448576 source:d:\sebasu\final\examen.de.ingreso\src\salon.cpp
+	"salon.h"
+	"Examen.h"
+	"Maestro.h"
 	<string>
 

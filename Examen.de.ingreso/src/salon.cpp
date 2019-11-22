@@ -4,7 +4,8 @@
 #include <string>
 using namespace std;
 
-salon::salon (string _salon_e,Maestro _e,Examen _h){
+salon::salon (string _carrera_de,string _salon_e,Maestro _e,Examen _h){
+    carrera_de=_carrera_de;
     salon_e=_salon_e;
     e=_e;
     h=_h;
@@ -18,6 +19,9 @@ void salon::obtener_m(){
 }
 void salon::obtener_e(){
     h.elex();
+}
+string salon::obtener_c(){
+    return carrera_de;
 }
 void salon::mostrar(){
     cout<<"Salon : "<<salon_e<<endl;
