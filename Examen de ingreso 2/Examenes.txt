@@ -1,0 +1,3 @@
+132 computacion 05 Ciencias.de.la.computacion
+85 derecho 40 Derecho
+76 ing.civil 30 Ingenieria.civil

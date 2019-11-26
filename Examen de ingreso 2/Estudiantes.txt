@@ -1,0 +1,20 @@
+22 Sebastian 974740 Peru 97474 computacion
+22 Sebastiano 97474 Peru 97474 computacion
+19 Nicolas 92628 Peru 97474 derecho
+21 Luciana 959875 Argentina 964915 derecho
+22 Diego 9204848920 Ecuador 973469328 ing.civil
+21 Renato 93982210 Peru 924747248 telecomunicaciones
+34 Diego 96924772 Peru 848439439 telecomunicaciones
+17 Piero 96353637 Peru 932830203 ing.civil
+20 Sharon 99263521 Argentina 83738393 computacion
+22 Maritza 93737292 Argentina 937362837 psicologia
+16 Aremi 93726348 Venezuela 983728383 psicologia
+17 Leonardo 98351209 Venezuela 983872934 contabilidad
+18 Jefry 91278247 Venezuela 8972739280 contabilidad
+18 Adam 92564791 Ecuador 8293829849 contabilidad
+18 Camila 94501279 Peru 7923792739 educacion
+19 Karla 972938392 Peru 8928394829 educacion
+20 Maria 9013393839 Venezuela ing.industrial
+18 Jose 93810329 Peru 932830239 ing.industrial
+21 Filberto 92848293 Peru 82912458 psicologia
+18 Jabier 95378920 Argentina 974938497 computacion 
