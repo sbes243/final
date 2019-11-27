@@ -12,5 +12,5 @@ Examen::Examen(int _numeroe,string _tipo_de_e,int _pagina_e,string _carrera){ //
 }
 
 void Examen::elex(){//Usando los datos obtenidos en la clase persona se generara un numero de examen su tipo y su tamaño
-    cout<<"Su examen es el numero "<<numeroe<<" de la carrera de "<<tipo_de_e<<" con "<<pagina_e<<" hojas "<<" de la carrera de "<<carrera<<endl;
+    cout<<"Su examen es el numero "<<numeroe<<" de "<<tipo_de_e<<" con "<<pagina_e<<" hojas "<<" de la carrera de "<<carrera<<endl;
 }

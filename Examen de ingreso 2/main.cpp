@@ -142,6 +142,7 @@ int main()
                 cin>>opc;
                 break;
             case 3://opcion 3 para obtener la clase del examen
+                cout<<"Carrera deseada: ";
                 encontrar(arr2);
                 menu();
                 cin>>opc;
@@ -153,7 +154,9 @@ int main()
                  break;
             case 5: exit(0);
                 break;
-             default : cout<<"Opcion no valida";
+             default :
+                 cout<<"Opcion no valida";
+                 break;
         }
     }while(opc!=5);
     system("pause");

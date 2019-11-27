@@ -60,7 +60,7 @@
 	"Maestro.h"
 	<string>
 
-1574811770 source:c:\c++\final\examen de ingreso 2\main.cpp
+1574857640 source:c:\c++\final\examen de ingreso 2\main.cpp
 	<iostream>
 	"persona.h"
 	"Examen.h"
@@ -72,50 +72,50 @@
 	<string>
 	<fstream>
 
-1574599462 c:\c++\final\examen de ingreso 2\include\persona.h
+1574812857 c:\c++\final\examen de ingreso 2\include\persona.h
 	<string>
 
-1574599462 c:\c++\final\examen de ingreso 2\include\examen.h
+1574812857 c:\c++\final\examen de ingreso 2\include\examen.h
 	<string>
 	<iostream>
 
-1574599462 c:\c++\final\examen de ingreso 2\include\estudiante.h
+1574812857 c:\c++\final\examen de ingreso 2\include\estudiante.h
 	<string>
 	"persona.h"
 	<iostream>
 
-1574599462 c:\c++\final\examen de ingreso 2\include\maestro.h
+1574812857 c:\c++\final\examen de ingreso 2\include\maestro.h
 	<string>
 	"persona.h"
 	<iostream>
 
-1574599462 c:\c++\final\examen de ingreso 2\include\salon.h
+1574812857 c:\c++\final\examen de ingreso 2\include\salon.h
 	<Maestro.h>
 	"Examen.h"
 	<string>
 
-1574599462 source:c:\c++\final\examen de ingreso 2\src\estudiante.cpp
+1574812857 source:c:\c++\final\examen de ingreso 2\src\estudiante.cpp
 	"Estudiante.h"
 	"persona.h"
 	<string>
 	<iostream>
 
-1574599462 source:c:\c++\final\examen de ingreso 2\src\examen.cpp
+1574857562 source:c:\c++\final\examen de ingreso 2\src\examen.cpp
 	"Examen.h"
 	<iostream>
 	<string>
 
-1574599462 source:c:\c++\final\examen de ingreso 2\src\maestro.cpp
+1574812857 source:c:\c++\final\examen de ingreso 2\src\maestro.cpp
 	"Maestro.h"
 	<iostream>
 	<string>
 
-1574599462 source:c:\c++\final\examen de ingreso 2\src\persona.cpp
+1574812857 source:c:\c++\final\examen de ingreso 2\src\persona.cpp
 	"persona.h"
 	<iostream>
 	<string>
 
-1574599462 source:c:\c++\final\examen de ingreso 2\src\salon.cpp
+1574812857 source:c:\c++\final\examen de ingreso 2\src\salon.cpp
 	"salon.h"
 	"Examen.h"
 	"Maestro.h"
